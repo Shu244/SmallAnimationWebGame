@@ -370,7 +370,6 @@ async function runGame(Display, height, width) {
         if (status === "won")
             break;
     }
-    Display.clear();
     console.log("You've won!");
 }
 // ----------------------------------- Start of animating on DOM ---------------------------------------------
